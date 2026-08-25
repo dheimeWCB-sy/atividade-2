@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: #111111; /* Fundo escuro para destacar o brilho das partículas */
+}
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* Permite clicar no texto normalmente */
+  z-index: 0;
+} 
+
+h1 {
+  color: #ffffff; /* Cor do texto */
+  /*font-family: Arial, sans-serif; Fonte do texto */
+  font-size: 36px; /* Tamanho da fonte */
+  padding: 10px; /* Espaçamento interno */
+  margin-top: 20px; /* Margem superior */
+}
+h4 {
+  color: #ffffff; /* Cor do texto */
+  padding: 10px; /* Espaçamento interno */
+}
+p {
+  color: #ffffff; /* Cor do texto */
+  /*font-family: Arial, sans-serif; Fonte do texto */
+  font-size: 16px; /* Tamanho da fonte */
+  line-height: 1.5; /* Espaçamento entre linhas */
+  padding: 10px; /* Espaçamento interno */
+}
+
