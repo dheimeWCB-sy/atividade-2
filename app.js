@@ -21,7 +21,7 @@ class Particle {
     this.size = Math.random() * 8 + 2; // Tamanho entre 2px e 10px
     this.speedX = (Math.random() - 0.5) * 3; // Movimento horizontal leve
     this.speedY = (Math.random() - 0.5) * 3; // Movimento vertical leve
-    this.color = `hsl(${Math.random() * 360}, 100%, 60%)`; // Cores vibrantes aleatórias
+    this.color = `hsl(${Math.random() * 350}, 100%, 50%)`; // Cores vibrantes aleatórias
   }
 
   // Atualiza posição e reduz o tamanho
